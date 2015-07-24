@@ -26,15 +26,22 @@
 	     <action android:name="android.intent.action.VIEW"></action>
                 <category android:name="android.intent.category.DEFAULT"></category>
                 <category android:name="android.intent.category.BROWSABLE"></category>
-                <data android:host="tviso.dev" android:scheme="http"></data>
-                <data android:host="www.tviso.dev" android:scheme="http"></data>
-                <data android:host="es.tviso.dev" android:scheme="http"></data>
+
                 <data android:host="tviso.com" android:scheme="https"></data>
                 <data android:host="www.tviso.com" android:scheme="https"></data>
                 <data android:host="es.tviso.com" android:scheme="https"></data>
+                
                 <data android:host="tviso.pre" android:scheme="http"></data>
                 <data android:host="www.tviso.pre" android:scheme="http"></data>
                 <data android:host="es.tviso.pre" android:scheme="http"></data>
+                
+                <data android:host="tviso.dev" android:scheme="http"></data>
+                <data android:host="www.tviso.dev" android:scheme="http"></data>
+                <data android:host="es.tviso.dev" android:scheme="http"></data>
+                <data android:host="tviso.dev.192.168.5.36.xip.io" android:scheme="http"></data>
+                <data android:host="www.tviso.dev.192.168.5.36.xip.io" android:scheme="http"></data>
+                <data android:host="es.tviso.dev.192.168.5.36.xip.io" android:scheme="http"></data>
+                
             </intent-filter>
             </activity>
         </config-file>
