@@ -21,7 +21,7 @@
         </config-file>
         
         <config-file target="AndroidManifest.xml" parent="/manifest/application">
-            <activity android:name="com.tviso.sannerapp" android:label="tviso">
+            <activity>
             <intent-filter>
 	     <action android:name="android.intent.action.VIEW"></action>
                 <category android:name="android.intent.category.DEFAULT"></category>
